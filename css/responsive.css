@@ -1,32 +1,185 @@
-/* Normal desktop :1200px. */
-@media (min-width: 1200px) and (max-width: 1500px) {
+/* Normal desktop :1200px. EXTRA LARGE DEVICE*/
+@media (min-width: 1200px) and (max-width: 1500px) {}
 
 
-}
-
-
-/* Normal desktop :992px. */
+/* Normal desktop :992px. LARGE DEVICE */
 @media (min-width: 992px) and (max-width: 1200px) {
+    .main-menu ul li {
+        margin-left: 20px;
+    }
 
+    .single-slider {
+        height: 50vh;
+    }
 
+    .single-features {
+        padding: 35px 0;
+    }
+
+    .about-area {
+        padding: 30px 0;
+    }
+
+    .p-btn {
+        padding: 10px 20px;
+    }
 }
 
- 
-/* Tablet desktop :768px. */
+
+/* Tablet desktop :768px. MEDIUM DEVICE*/
 @media (min-width: 768px) and (max-width: 991px) {
+    .header-area {
+        padding: 20px 40px;
+    }
 
+    .single-slider {
+        height: 45vh;
+    }
+
+    .single-slider-wrapper h2 {
+        font-size: 50px;
+    }
+
+    .single-features i {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .single-features h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .single-features p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .single-features {
+        padding: 30px 0;
+    }
+
+    .about-text h3 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+
+    .about-text p {
+        margin-bottom: 25px;
+        font-size: 13px;
+    }
+
+    .p-btn {
+        font-size: 14px;
+        padding: 10px 30px;
+    }
+
+    .subscribe-form input {
+        width: 30%;
+    }
+
+    .subscribe-form button {
+        margin-top: 15px;
+    }
+
+    .service-wrapper {
+        margin-bottom: 30px;
+    }
+
+    .pricing-wrapper {
+        margin-bottom: 30px;
+    }
+
+    .testimonial-item {
+        padding: 60px 80px;
+    }
 
 }
 
- 
+
 /* small mobile :320px. */
 @media (max-width: 767px) {
+    .header-area {
+        padding: 20px 40px;
+    }
 
- 
+    .single-slider-wrapper h2 {
+        font-size: 30px;
+    }
+
+    .single-slider {
+        height: 40vh;
+    }
+
+    .single-slider-wrapper p {
+        font-size: 14px;
+        margin-bottom: 35px;
+    }
+
+    .p-btn {
+        padding: 10px 22px;
+    }
+
+    .features-area {
+        margin-top: 10px;
+    }
+
+    .single-features {
+        border-bottom: 1px solid #fff;
+    }
+
+    .single-features p {
+        font-size: 14px;
+    }
+
+    .about-text h3 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .about-text p {
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    .about-text {
+        margin-bottom: 30px;
+    }
+
+    .testimonial-item {
+        padding: 50px 25px;
+    }
+
+    .subscribe-form input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer-widget ul li {
+        overflow: hidden;
+    }
+
+    .footer-widget h3 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .copyright-text {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .footer-menu nav ul {
+        text-align: center;
+    }
 }
- 
+
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-.container {width:450px}
- 
+    .container {
+        width: 450px
+    }
+
 }

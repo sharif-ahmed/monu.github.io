@@ -419,6 +419,10 @@ a.p-btn:hover {
 	margin: 0;
 }
 
+.about-img img {
+	width: 100%;
+}
+
 .about-text h3 {
 	font-size: 32px;
 	line-height: 44px;
